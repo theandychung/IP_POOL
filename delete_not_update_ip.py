@@ -10,8 +10,8 @@
 import sys
 
 # 这里写你自己的框架保存地址
-sys.path.append('/home/shimeng/code/spider_framework_github_responsity')
-from spider.log_format import spider_log
+# sys.path.append('/home/shimeng/code/spider_framework_github_responsity')
+from AiSpider.spider.log_format import spider_log
 from config import log_folder_name
 from config import host, port, database_name
 from proxy_basic_config import collection_name, over_time
