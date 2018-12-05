@@ -1,0 +1,3 @@
+[submodule "AiSpider"]
+	path = AiSpider
+	url = https://github.com/xiaosimao/AiSpider.git
