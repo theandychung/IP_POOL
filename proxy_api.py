@@ -8,9 +8,8 @@ API
 """
 
 import sys
-
 sys.path.append('/home/shimeng/code/spider_framework_github_responsity')
-from spider.data_save import pipeline
+from AiSpider.spider.data_save import pipeline
 from db_method import DB
 from flask import Flask, jsonify, request
 

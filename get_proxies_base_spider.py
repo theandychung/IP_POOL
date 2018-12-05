@@ -10,12 +10,12 @@ import time
 # 这里写你自己的框架保存地址
 sys.path.append('/home/shimeng/code/spider_framework_github_responsity')
 
-from spider.tools import format_put_data
-from spider.data_save import pipeline
-from spider.html_parser import parser
-from spider.page_downloader import aispider
-from spider.threads import start, work_queue, save_queue
-from spider.log_format import logger
+from AiSpider.spider.tools import format_put_data
+from AiSpider.spider.data_save import pipeline
+from AiSpider.spider.html_parser import parser
+from AiSpider.spider.page_downloader import aispider
+from AiSpider.spider.threads import start, work_queue, save_queue
+from AiSpider.spider.log_format import logger
 from proxy_basic_config import url_parse_dict, target_urls,collection_name
 from _request import valid
 

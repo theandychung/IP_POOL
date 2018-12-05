@@ -6,6 +6,7 @@ import sys
 # 这里写你自己的地址
 sys.path.append('/home/shimeng/code/spider_framework_github_responsity')
 
+
 from spider.tools import format_put_data
 from spider.data_save import pipeline
 from spider.html_parser import parser
